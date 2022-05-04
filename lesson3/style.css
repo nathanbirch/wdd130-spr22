@@ -1,0 +1,58 @@
+/*region starting list styles */
+.awesomeDataList {
+  background-color: pink;
+}
+
+.awesomeDataList dt {
+  font-weight: 900;
+}
+
+.awesomeDataList dd {
+  font-style: italic;
+}
+
+.awesomeDataList dt,
+.awesomeDataList dd {
+  color: rgb(225, 0, 143);
+}
+
+.listContainer {
+  width: 90%;
+  margin: 0 auto;
+  background-color: bisque;
+  border: 1px solid blue;
+}
+
+.listContainer ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.listContainer ul li {
+  float: left;
+  padding: 0 25px;
+}
+/* end list styles */
+
+/* Starting Table Styles */
+.awesomeTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.awesomeTable,
+.awesomeTable th,
+.awesomeTable td {
+  border: 1px solid purple;
+}
+
+.awesomeTable th,
+.awesomeTable td {
+  padding: 5px;
+  text-align: center;
+}
+
+.awesomeTable tr:nth-child(even) {
+  background-color: greenyellow;
+}
+/* end table styles */
