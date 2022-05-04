@@ -1,0 +1,24 @@
+ul,
+ol {
+  list-style-type: none;
+}
+
+.blueTable {
+  border-collapse: collapse;
+}
+/* 
+.blueTable tr:nth-child(odd) {
+  background-color: red;
+} */
+
+.blueTable td {
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.blueTable tr:nth-child(odd) td:nth-child(even) {
+  background-color: aqua;
+}
+.blueTable tr:nth-child(even) td:nth-child(odd) {
+  background-color: red;
+}
